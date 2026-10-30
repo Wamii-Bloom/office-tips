@@ -1,6 +1,90 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#a8c5b6"><title>Office 小技辞典 | Bloom Wamii</title><meta name="description" content="Excel・Word・PowerPointのやりたい操作を目的から検索。ショートカットと手順を図解で確認。"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="alternate icon" href="favicon.ico"><link rel="apple-touch-icon" href="apple-touch-icon.png"><style>
 :root{--ink:#344c4b;--muted:#647b79;--sage:#a7c5b5;--blue:#adc8d8;--beige:#e9d8bb;--line:#dbe6e1;--background:#f7f9f7;--accent:#658d7e}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--background);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.65}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid #4d7783;outline-offset:3px}.wrap{max-width:1060px;margin:auto;padding:0 18px}.hero{background:linear-gradient(120deg,#a9c7b7,#b1c9d8 75%);padding:30px 0 34px}.mast{display:flex;justify-content:space-between;align-items:center;gap:10px}.brand{display:flex;gap:10px;align-items:center;font-size:12px;letter-spacing:.12em;font-weight:800}.brand img{width:35px;height:35px;border-radius:10px}.byline{font-size:11px;letter-spacing:.03em}.hero h1{font-size:clamp(30px,5.4vw,43px);line-height:1.25;margin:24px 0 8px}.hero p{margin:4px 0}.topline{font-size:13px;letter-spacing:.07em}.heroSearch{display:flex;align-items:center;gap:8px;padding:7px;background:#fffc;border:1px solid #d4e2de;border-radius:18px;margin-top:20px;box-shadow:0 5px 20px #344c4b14}.heroSearch input{width:100%;min-width:0;padding:11px 8px;border:0;outline:none;background:transparent;font-size:16px}.lens{font-size:25px;padding-left:11px}.tiny{color:#506d69;font-size:13px}.toolbar{display:flex;flex-wrap:wrap;gap:9px;margin:23px 0 10px}.nav{background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 15px;font-weight:750;color:var(--ink)}.nav.active{background:#e5efea;border-color:#8cac9e}.section-title{margin:26px 0 11px;font-size:16px}.goals{display:flex;gap:8px;flex-wrap:wrap}.goalChip{border-radius:999px;border:1px solid var(--line);padding:8px 14px;background:#fff;color:#4c6761;font-size:13px}.tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:15px}.tab{border:1px solid var(--line);background:#fff;color:#4c6560;padding:13px 4px;border-radius:14px;font-weight:800}.tab[data-app="excel"]{background:#e1ede6}.tab[data-app="word"]{background:#e3edf4}.tab[data-app="powerpoint"]{background:#f4eadc}.tab.active{outline:2px solid #537a70;outline-offset:-2px}.category-row{display:flex;overflow:auto;gap:8px;padding:8px 0 15px}.cat{flex:none;border:1px solid var(--line);background:#fff;border-radius:11px;padding:8px 12px;font-size:13px;color:var(--ink)}.cat.active{background:#e7efeb;font-weight:750}.count-row{display:flex;justify-content:space-between;gap:10px;align-items:center;margin:4px 0 14px;font-size:13px;color:var(--muted)}.small-actions{display:flex;gap:7px}.outline-btn{border:1px solid var(--line);background:#fff;border-radius:10px;color:var(--ink);padding:8px 11px}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:19px;padding:20px;box-shadow:0 5px 15px #32564608;border-top:5px solid #aac9b7}.card.word{border-top-color:#9bbdd0}.card.powerpoint{border-top-color:#ddc49a}.cardTop{display:flex;align-items:center;justify-content:space-between}.badge{border-radius:99px;padding:3px 12px;font-size:12px;font-weight:800;background:#e4efe9}.badge.word{background:#e6f1f7}.badge.powerpoint{background:#f5eade}.fav{border:0;background:none;font-size:26px;color:#879e94}.fav.on{color:#c19651}.card h2{font-size:20px;line-height:1.42;margin:12px 0 6px}.outcome{background:#f3f7f4;border-radius:11px;padding:10px 12px;font-size:13px;margin:11px 0}.outcome strong{display:block}.card.word .outcome{background:#f0f6fa}.card.powerpoint .outcome{background:#faf5ed}.shortcutFeature{margin:13px 0 7px;padding:13px;background:#f8faf9;border:1px solid #e2ebe7;border-radius:13px}.shortcutFeature .kicker{font-size:12px;color:var(--muted);font-weight:800;margin-bottom:5px}.keyline{display:flex;align-items:center;flex-wrap:wrap;gap:5px}.key{background:linear-gradient(#fff,#edf0ee);border:1px solid #adbfba;border-bottom:3px solid #99aaa6;box-shadow:0 2px 0 #e3ebe7;border-radius:8px;min-width:31px;padding:4px 9px;font-size:13px;line-height:1.5;font-weight:800;color:#324b48;white-space:nowrap}.plus{font-size:13px;color:#667d75}.noshortcut{font-size:12px;color:#7b8c87}.openbtn{background:#e6efeb;border:0;color:#345c50;border-radius:11px;width:100%;padding:11px;text-align:left;font-weight:800;margin-top:8px}.card.word .openbtn{background:#e6f0f6;color:#3b657e}.card.powerpoint .openbtn{background:#f6eddf;color:#766244}.detail{border-top:1px solid var(--line);margin-top:17px;padding-top:14px}.detail[hidden]{display:none}.detailTitle{font-size:13px;font-weight:800;margin:14px 0 7px}.process{display:flex;flex-direction:column;gap:2px}.processStep{display:flex;gap:10px;align-items:center;background:#f7faf8;border:1px solid #e2ebe5;padding:8px 10px;border-radius:10px}.num{display:grid;place-items:center;flex:0 0 26px;width:26px;height:26px;background:#d9e9df;border-radius:8px;font-size:12px;font-weight:850}.stepText{font-size:13px}.down{align-self:center;color:#729185;line-height:1.1;font-size:17px}.screen{border:1px solid #ccdcd5;border-radius:14px;overflow:hidden;background:#fafcfb}.screenTop{background:#e4eee9;padding:8px 11px;font-size:12px;font-weight:800}.screenButtons{padding:12px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}.screenBtn{display:flex;align-items:center;gap:4px;padding:6px 10px;border-radius:7px;border:1px solid #d3e2db;background:#fff;font-size:12px}.screenBtn.hit{outline:2px solid #a2674f;background:#fff9f4;font-weight:850}.screenArrow{font-weight:850;color:#769589}.screenNote{font-size:12px;color:var(--muted);margin:6px 0}.tip{font-size:13px;border-left:3px solid #98b7aa;background:#f3f7f5;padding:10px;margin:10px 0 0}.shortgroup{margin:23px 0 0}.shortgroup h2{font-size:17px;margin:0 0 10px}.shortcutGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:10px}.shortCard{border:1px solid var(--line);background:#fff;border-radius:15px;padding:15px;border-left:5px solid #aac9b7}.shortCard.word{border-left-color:#a5c6da}.shortCard.powerpoint{border-left-color:#dfc49c}.shortCard b{display:block;margin:9px 0 3px}.shortCard p{margin:0;color:var(--muted);font-size:12px}.shortCard .badge{font-size:11px}.empty{background:#fff;border:1px dashed var(--line);border-radius:14px;padding:30px;text-align:center;color:var(--muted)}.foot{text-align:center;font-size:12px;color:#758d87;margin:50px auto 25px}.hidden{display:none!important}@media(max-width:520px){.tab{font-size:12px}.wrap{padding:0 15px}.hero{padding:20px 0 28px}.hero h1{margin-top:21px}.card{padding:17px}.count-row{align-items:flex-start}.small-actions{flex-shrink:0}}@media print{body{background:#fff}.hero{background:#fff;padding:10px 0;border-bottom:1px solid #aaa}.toolbar,.goals,.tabs,.category-row,.count-row,.heroSearch,.nav,.openbtn,.fav{display:none!important}.cards,.shortcutGrid{display:block}.card,.shortCard{break-inside:avoid;box-shadow:none;margin-bottom:12px}.detail[hidden]{display:block}.foot{display:none}}
-</style></head><body><header class="hero"><div class="wrap"><div class="mast"><div class="brand"><img src="favicon.svg" alt=""><div>BLOOM WAMII · OFFICE TIPS<div class="byline">Excel / Word / PowerPoint</div></div></div></div><h1>Office 小技辞典</h1><p>やりたいことから、操作方法を探そう。</p><p class="tiny">「これ、どうやるんだっけ？」を、キーと図解で確認できる小さな辞典。</p><label class="heroSearch"><span class="lens" aria-hidden="true">⌕</span><input id="q" type="search" placeholder="例：図形を揃えたい、行間、PDFをExcelに" aria-label="小技を検索"></label></div></header><main class="wrap"><nav class="toolbar" aria-label="表示切り替え"><button class="nav active" data-page="tips">やりたいことから探す</button><button class="nav" data-page="shortcuts">⌨ ショートカット一覧</button></nav><section id="tips"><h2 class="section-title">こんなことをしたい</h2><div class="goals" id="goals"></div><h2 class="section-title">アプリから探す</h2><div class="tabs" id="tabs"><button class="tab active" data-app="all">すべて</button><button class="tab" data-app="excel">Excel</button><button class="tab" data-app="word">Word</button><button class="tab" data-app="powerpoint">PowerPoint</button></div><div class="category-row" id="categories"></div><div class="count-row"><span id="count"></span><div class="small-actions"><button class="outline-btn" id="favOnly" aria-pressed="false">☆ お気に入り</button><button class="outline-btn" id="printTips">印刷</button></div></div><div class="cards" id="cards"></div></section><section id="shortcuts" class="hidden"><h2 class="section-title">ショートカットを目的から探す</h2><p class="tiny">キーの組み合わせを一覧でチェック。アプリ別・目的別に探せます。</p><div class="tabs" id="shortcutTabs"><button class="tab active" data-short-app="all">すべて</button><button class="tab" data-short-app="excel">Excel</button><button class="tab" data-short-app="word">Word</button><button class="tab" data-short-app="powerpoint">PowerPoint</button></div><div class="count-row"><span id="shortcutCount"></span><button class="outline-btn" id="printShortcuts">一覧を印刷</button></div><div id="shortcutGroups"></div></section><footer class="foot">© Bloom Wamii · Office 小技辞典 v0.3<br>Windows版 Microsoft 365を想定。図は操作の流れを示す模式図です。<br>※現在は代表的な小技を収録した試作品です。</footer></main><script>
+
+/* v0.4: app-wide accent colors and quick-glance details */
+.card{--theme:#638f78;--theme-light:#e7f1e9;--theme-border:#bad4c5;--theme-text:#315e49}
+.card.word{--theme:#5d8fae;--theme-light:#e8f3f9;--theme-border:#b7d4e4;--theme-text:#335d77}
+.card.powerpoint{--theme:#a98254;--theme-light:#f7efe3;--theme-border:#e7d2b6;--theme-text:#6e5637}
+.card .outcome{background:var(--theme-light);border-left:3px solid var(--theme);margin:10px 0 7px;padding:9px 12px}
+.card .outcome strong{color:var(--theme-text);display:flex;align-items:center;gap:7px;font-size:13px}
+.card .miniIcon{display:inline-grid;place-items:center;border-radius:50%;width:23px;height:23px;background:var(--theme);color:white;font-size:15px;font-weight:900;flex:0 0 23px}
+.card .shortcutFeature{background:none;border:0;padding:4px 0 3px;margin:8px 0}
+.card .shortcutFeature .kicker{color:var(--theme-text);font-size:13px;display:flex;gap:7px;align-items:center;margin-bottom:6px}
+.card .shortcutFeature .miniIcon{border-radius:6px;font-size:16px}
+.card .keyline{gap:7px}
+.card .key{font-size:clamp(15px,4vw,20px);padding:8px 14px;border-radius:10px;min-width:45px;text-align:center}
+.card .plus{font-size:18px}
+.card .detailTitle{color:var(--theme-text)}
+.card .processStep{background:var(--theme-light);border-color:var(--theme-border)}
+.card .num{background:var(--theme-border);color:var(--theme-text)}
+.card .down{color:var(--theme)}
+.card .screen{border-color:var(--theme-border)}
+.card .screenTop{background:var(--theme-light);color:var(--theme-text)}
+.card .screenBtn.hit{outline-color:var(--theme);background:var(--theme-light)}
+.card .screenArrow{color:var(--theme)}
+.card .tip{border-left-color:var(--theme);background:var(--theme-light)}
+.card .openbtn{background:var(--theme-light);color:var(--theme-text)}
+@media(max-width:520px){.card .key{padding:7px 12px}}
+
+/* v0.5 print studio */
+.printOverlay{position:fixed;inset:0;z-index:50;background:#203b3988;display:none;overflow:auto;padding:22px 12px}
+.printOverlay.open{display:block}
+.printPanel{max-width:920px;margin:0 auto;background:#f7f9f7;border-radius:20px;padding:20px;box-shadow:0 15px 45px #152f2c33}
+.printHead{display:flex;justify-content:space-between;gap:12px;align-items:start}
+.printHead h2{margin:0;font-size:22px}.printHead p{margin:4px 0 12px;font-size:13px;color:#617a75}
+.printClose{border:1px solid #d6e2dd;border-radius:10px;background:#fff;padding:6px 12px}
+.printModes{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.printModes button{border:1px solid #cbdcd5;background:#fff;padding:9px 12px;border-radius:10px}
+.printModes button.on{background:#e1eee8;border-color:#6e9c89;font-weight:800}
+.printControls{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.printControls button,.printGo{background:#fff;border:1px solid #d5e1dc;border-radius:10px;padding:8px 12px}
+.printItems{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:7px;margin:10px 0}
+.printItems label{background:#fff;border:1px solid #e1e9e4;padding:9px;border-radius:9px;display:flex;gap:9px;align-items:center;font-size:13px}
+.printItems label span{flex:1}.printItems small{color:#718783}
+.printStatus{font-size:12px;color:#5a746b;margin:7px 0}
+.printPreviewLabel{margin:15px 0 7px;font-weight:800}
+.printPaper{background:white;color:#293c3b;width:min(100%,700px);min-height:720px;margin:auto;padding:32px;box-shadow:0 3px 20px #193b3220;border:1px solid #e1e5e2;font-size:12px;line-height:1.45}
+.printPaper h2{font-size:22px;line-height:1.25;margin:5px 0 12px}
+.printPaper h3{font-size:13px;margin:12px 0 5px}
+.printPaper .paperMeta{font-size:10px;letter-spacing:.08em;color:#688075;border-bottom:1px solid #d9e5de;padding-bottom:7px}
+.printPaper .paperGoal{background:#e8f2ed;padding:10px;border-radius:7px;margin:9px 0}
+.printPaper .paperGoal.word{background:#eaf3f8}.printPaper .paperGoal.powerpoint{background:#f8f0e6}
+.printPaper .paperKeys{display:flex;align-items:center;gap:5px;margin:7px 0}
+.printPaper kbd{display:inline-block;border:1px solid #bacac4;border-bottom:2px solid #8ba79a;border-radius:5px;padding:4px 8px;background:#fff;font-size:12px;font-weight:800}
+.printPaper ol{padding-left:20px;margin:6px 0}.printPaper li{margin:3px 0}
+.printPaper .paperFlow{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:8px 0}
+.printPaper .paperFlow span{padding:5px 7px;background:#edf3ef;border-radius:5px}
+.printPaper .paperFlow b{color:#76998b}
+.printPaper .paperFoot{border-top:1px solid #e2e9e5;margin-top:18px;padding-top:8px;color:#6a8078;font-size:10px;display:flex;justify-content:space-between}
+.printPaper .paperTable{width:100%;border-collapse:collapse;font-size:11px}
+.printPaper .paperTable th,.printPaper .paperTable td{border-bottom:1px solid #e1e7e3;text-align:left;vertical-align:top;padding:7px 5px}
+.printPaper .paperTable th{background:#edf3ef}.printPaper .paperTable td:first-child{font-weight:700;width:28%}
+.printPaper .paperTable .smallKey{white-space:nowrap;font-weight:800}
+.printPaper .paperTip{border-left:3px solid #91b5a5;padding:6px 9px;background:#f6f8f6;margin-top:9px}
+.printActions{display:flex;gap:8px;justify-content:flex-end;margin-top:15px}
+.printGo{background:#557e6e;color:#fff;font-weight:800;padding:10px 20px}
+.printGo:disabled{opacity:.45}
+@media(max-width:600px){.printPanel{padding:13px}.printPaper{padding:16px;min-height:550px}.printPaper h2{font-size:18px}}
+@page{size:A4 portrait;margin:11mm}
+@media print{
+body.printing > :not(#printOverlay){display:none!important}
+body.printing #printOverlay{position:static!important;display:block!important;background:none!important;padding:0!important;overflow:visible!important}
+body.printing #printOverlay .printPanel{box-shadow:none!important;background:white!important;padding:0!important;max-width:none!important}
+body.printing #printOverlay .printHead,body.printing #printOverlay .printModes,body.printing #printOverlay .printControls,body.printing #printOverlay .printItems,body.printing #printOverlay .printStatus,body.printing #printOverlay .printPreviewLabel,body.printing #printOverlay .printActions{display:none!important}
+body.printing #printOverlay .printPaper{width:100%!important;min-height:0!important;border:0!important;box-shadow:none!important;padding:0!important;font-size:10pt!important}
+body.printing #printOverlay .printPaper h2{font-size:18pt!important}
+body.printing #printOverlay .printPaper .paperTable{font-size:9pt!important}
+body.printing #printOverlay .printPaper .paperTable th,body.printing #printOverlay .printPaper .paperTable td{padding:5px!important}
+body.printing #printOverlay .printPaper .paperFoot{margin-top:12px}
+}
+</style></head><body><header class="hero"><div class="wrap"><div class="mast"><div class="brand"><img src="favicon.svg" alt=""><div>BLOOM WAMII · OFFICE TIPS<div class="byline">Excel / Word / PowerPoint</div></div></div></div><h1>Office 小技辞典</h1><p>やりたいことから、操作方法を探そう。</p><p class="tiny">「これ、どうやるんだっけ？」を、キーと図解で確認できる小さな辞典。</p><label class="heroSearch"><span class="lens" aria-hidden="true">⌕</span><input id="q" type="search" placeholder="例：図形を揃えたい、行間、PDFをExcelに" aria-label="小技を検索"></label></div></header><main class="wrap"><nav class="toolbar" aria-label="表示切り替え"><button class="nav active" data-page="tips">やりたいことから探す</button><button class="nav" data-page="shortcuts">⌨ ショートカット一覧</button></nav><section id="tips"><h2 class="section-title">こんなことをしたい</h2><div class="goals" id="goals"></div><h2 class="section-title">アプリから探す</h2><div class="tabs" id="tabs"><button class="tab active" data-app="all">すべて</button><button class="tab" data-app="excel">Excel</button><button class="tab" data-app="word">Word</button><button class="tab" data-app="powerpoint">PowerPoint</button></div><div class="category-row" id="categories"></div><div class="count-row"><span id="count"></span><div class="small-actions"><button class="outline-btn" id="favOnly" aria-pressed="false">☆ お気に入り</button><button class="outline-btn" id="printTips">印刷</button></div></div><div class="cards" id="cards"></div></section><section id="shortcuts" class="hidden"><h2 class="section-title">ショートカットを目的から探す</h2><p class="tiny">キーの組み合わせを一覧でチェック。アプリ別・目的別に探せます。</p><div class="tabs" id="shortcutTabs"><button class="tab active" data-short-app="all">すべて</button><button class="tab" data-short-app="excel">Excel</button><button class="tab" data-short-app="word">Word</button><button class="tab" data-short-app="powerpoint">PowerPoint</button></div><div class="count-row"><span id="shortcutCount"></span><button class="outline-btn" id="printShortcuts">一覧を印刷</button></div><div id="shortcutGroups"></div></section><footer class="foot">© Bloom Wamii · Office 小技辞典 v0.5<br>Windows版 Microsoft 365を想定。図は操作の流れを示す模式図です。<br>※現在は代表的な小技を収録した試作品です。</footer></main><div id="printOverlay" class="printOverlay" role="dialog" aria-modal="true" aria-labelledby="printHeading">
+<div class="printPanel"><div class="printHead"><div><h2 id="printHeading">印刷用にまとめる</h2><p>A4・1ページ用のレイアウトで、必要な小技だけ選べます。</p></div><button class="printClose" id="printClose" type="button">閉じる ×</button></div>
+<div class="printModes"><button data-print-mode="single" class="on">1件を詳しく</button><button data-print-mode="multi">小技をまとめる</button><button data-print-mode="short">ショートカット一覧</button></div>
+<div class="printControls"><span id="printLimit"></span><div><button id="printAll" type="button">表示中から選択</button> <button id="printClear" type="button">選択解除</button></div></div>
+<div id="printItems" class="printItems"></div><p id="printStatus" class="printStatus" aria-live="polite"></p>
+<div class="printPreviewLabel">A4印刷プレビュー（内容イメージ）</div><div id="printPaper" class="printPaper"></div>
+<div class="printActions"><button class="printClose" id="printCancel">戻る</button><button class="printGo" id="printGo">この内容を印刷</button></div>
+</div></div><script>
 const data=[
 {id:'e01',app:'excel',category:'コピー・貼り付け',title:'値だけ貼り付けたい',goal:'数式を除いて、結果だけコピーしたい',desc:'貼り付け先に計算式を持ち込まず、表示された値だけ残せます。',tags:'値のみ 貼り付け 数式 消す コピー',steps:['コピー元のセルを選択してコピーする。','貼り付け先を選択する。','［ホーム］→［貼り付け▼］→［値］を選ぶ。'],keys:[],menu:['ホーム','貼り付け ▼','値'],target:'値',tip:'貼り付けオプションの位置や名前は画面幅で変わる場合があります。'},
 {id:'e02',app:'excel',category:'表を整える',title:'列幅を文字に合わせたい',goal:'切れている文字を全部表示したい',desc:'列幅を文字列の長さに合わせて一度に調整します。',tags:'列幅 自動調整 セル 表 見切れる',steps:['幅を整えたい列を選択する。','列見出しの境界線をダブルクリックする。'],keys:[],menu:['A','列の境界線 ↔','B'],target:'列の境界線 ↔',tip:'結合セルがあると期待どおりに自動調整できない場合があります。'},
@@ -10,7 +94,7 @@ const data=[
 {id:'e06',app:'excel',category:'図形・配置',title:'図形を同じ間隔に並べたい',goal:'図形の間を均等にしたい',desc:'複数の図形を横方向または縦方向に均等配置します。',tags:'均等配置 揃える 整列 図形 配列 間隔',steps:['対象の図形を3つ以上選択する。','［図形の書式］→［配置］を開く。','必要に応じて揃えた後、［左右に整列］または［上下に整列］を選ぶ。'],keys:[],menu:['図形の書式','配置','左右に整列','上下に整列'],target:'左右に整列',tip:'配置メニュー内の「左右に整列」は間隔を揃える機能です。'},
 {id:'e07',app:'excel',category:'図形・配置',title:'図形の中の文字を中央にしたい',goal:'四角の中の文字を真ん中に置きたい',desc:'上下方向と左右方向の両方を中央に揃えます。',tags:'図形 文字 中央揃え 上下 左右',steps:['文字が入った図形を選ぶ。','［ホーム］の中央揃えで左右の位置を整える。','［図形の書式］→［文字の配置］で上下中央を選ぶ。'],keys:[],menu:['ホーム','中央揃え','図形の書式','文字の配置'],target:'文字の配置'},
 {id:'e08',app:'excel',category:'PDF・変換',title:'PDFの表をExcelに取り込みたい',goal:'PDFをExcelの表として編集したい',desc:'ExcelのPower QueryからPDF内の表を読み込みます。',tags:'PDF エクセル 変換 読み込み 表 取り込み Power Query',steps:['［データ］→［データの取得］→［ファイルから］→［PDFから］を選ぶ。','対象のPDFを選び、ナビゲーターで表を確認する。','［読み込み］または［データの変換］を選ぶ。'],keys:[],menu:['データ','データの取得','ファイルから','PDFから'],target:'PDFから',tip:'スキャン画像のPDFや複雑な表は正しく抽出できない場合があります。'},
-{id:'e09',app:'excel',category:'PDF・変換',title:'Word経由でPDFの表をコピーしたい',goal:'PDFの一部分だけExcelへ移したい',desc:'WordでPDFを変換してから必要部分をコピーします。',tags:'PDF ワード Word コピー Excel 貼り付け 表',steps:['WordでPDFを開き、編集可能な文書に変換する。','必要な表や文字を選んでコピーする。','Excelに貼り付け、列やセルのずれを確認する。'],keys:['Ctrl','C'],menu:['WordでPDFを開く','表をコピー','Excelに貼り付け'],target:'表をコピー',tip:'変換前後で段組みやセルの位置がずれる場合があります。'},
+{id:'e09',app:'excel',category:'PDF・変換',title:'Word経由でPDFの表をコピーしたい',goal:'PDFの一部分だけExcelへ移したい',desc:'WordでPDFを変換してから必要部分をコピーします。',tags:'PDF ワード Word コピー Excel 貼り付け 表',steps:['WordでPDFを開き、編集可能な文書に変換する。','必要な表や文字を選んでコピーする。','Excelに貼り付け、列やセルのずれを確認する。'],keys:[],menu:['WordでPDFを開く','表をコピー','Excelに貼り付け'],target:'表をコピー',tip:'変換前後で段組みやセルの位置がずれる場合があります。'},
 {id:'w01',app:'word',category:'文字・行間',title:'フォントを変えても行間を広げたくない',goal:'文字を変えると行間が広がって困る',desc:'段落の行間・グリッド線への配置を確認して整えます。',tags:'フォント 行間 広い 段落 文字 行グリッド',steps:['対象の段落を選び、［ホーム］→［段落］右下の小さな矢印を開く。','［インデントと行間隔］で行間を確認する。','必要に応じて「1ページの行数を指定時に文字を行グリッド線に合わせる」をオフにする。'],keys:[],menu:['ホーム','段落 ↘','インデントと行間隔','グリッド線に合わせる'],target:'グリッド線に合わせる',tip:'行間の固定値を小さくしすぎると文字が欠ける場合があります。'},
 {id:'w02',app:'word',category:'報告書・ページ',title:'一部のページだけ横向きにしたい',goal:'報告書の横長の表だけ横向きで印刷したい',desc:'セクション区切りを使ってページの向きを分けます。',tags:'横向き 縦向き セクション 改ページ 報告書',steps:['横向きにしたい部分の前後に［レイアウト］→［区切り］→［次のページから開始］を入れる。','横向きにしたいセクションへカーソルを置く。','［レイアウト］→［印刷の向き］→［横］を選択する。'],keys:[],menu:['レイアウト','区切り','次のページから開始','印刷の向き'],target:'印刷の向き',tip:'前後のセクションへの影響がないか印刷プレビューで確認します。'},
 {id:'w03',app:'word',category:'報告書・ページ',title:'表の見出しを次ページにも出したい',goal:'表が長くても各ページで項目名を表示したい',desc:'複数ページにまたがる表の先頭行を繰り返します。',tags:'表 見出し 行 繰り返し 次ページ',steps:['表の先頭の見出し行を選ぶ。','［テーブル レイアウト］→［タイトル行の繰り返し］を選択する。','印刷レイアウトで表示を確認する。'],keys:[],menu:['テーブル レイアウト','タイトル行の繰り返し'],target:'タイトル行の繰り返し',tip:'表が途中で分割されていると繰り返しが効かない場合があります。'},
@@ -48,10 +132,91 @@ function renderTips(){
  $('#categories').replaceChildren(...cats.map(s=>{const b=make('button','cat'+(s===activeCat?' active':''),s);b.onclick=()=>{activeCat=s;renderTips()};return b}));
  const q=normalized($('#q').value);const list=data.filter(d=>(activeApp==='all'||d.app===activeApp)&&(activeCat==='すべて'||d.category===activeCat)&&(!onlyFav||favs.has(d.id))&&(!q||normalized([d.title,d.goal,d.desc,d.tags,d.category].join(' ')).includes(q)));
  $('#count').textContent=list.length+'件を表示 / 体験版 全'+data.length+'件';$('#favOnly').textContent=(onlyFav?'★':'☆')+' お気に入り';$('#favOnly').setAttribute('aria-pressed',String(onlyFav));
- let cards=list.map(d=>{const card=make('article','card '+d.app),top=make('div','cardTop'),badge=make('span','badge '+d.app,titles[d.app]),fav=make('button','fav'+(favs.has(d.id)?' on':''),favs.has(d.id)?'★':'☆');fav.setAttribute('aria-label','お気に入り '+d.title);fav.onclick=()=>{favs.has(d.id)?favs.delete(d.id):favs.add(d.id);try{localStorage.setItem('officeTipsFavV03',JSON.stringify([...favs]))}catch(e){}renderTips()};top.append(badge,fav);card.append(top,make('h2','',d.title));const outcome=make('div','outcome');outcome.append(make('strong','','こうなる！'),make('span','',d.goal));card.append(outcome);
- const shortcut=make('div','shortcutFeature');shortcut.append(make('div','kicker','まずはキー操作を確認'));if(d.keys&&d.keys.length){shortcut.append(keysNode(d.keys))}else{shortcut.append(make('span','noshortcut','この小技は画面のメニューから操作します'))}card.append(shortcut);
- const btn=make('button','openbtn','操作手順と図解を見る ＋'),detail=make('div','detail');detail.hidden=true;btn.setAttribute('aria-expanded','false');btn.onclick=()=>{detail.hidden=!detail.hidden;btn.setAttribute('aria-expanded',String(!detail.hidden));btn.textContent=detail.hidden?'操作手順と図解を見る ＋':'解説を閉じる −'};
- detail.append(make('p','tiny',d.desc),make('div','detailTitle','操作の流れ'));const process=make('div','process');d.steps.forEach((s,i)=>{const el=make('div','processStep');el.append(make('span','num',String(i+1)),make('span','stepText',s));process.append(el);if(i<d.steps.length-1)process.append(make('span','down','▼'))});detail.append(process,make('div','detailTitle','画面で押す場所のイメージ'));const screen=make('div','screen');screen.append(make('div','screenTop',titles[d.app]+'｜メニューの順番'));const row=make('div','screenButtons');d.menu.forEach((name,i)=>{if(i)row.append(make('span','screenArrow','▶'));let item=make('span','screenBtn'+(name===d.target?' hit':''),name);row.append(item)});screen.append(row);detail.append(screen,make('p','screenNote','※実際のスクリーンショットではなく、順番を示す模式図です。'));if(d.tip)detail.append(make('p','tip','注意：'+d.tip));card.append(btn,detail);return card});$('#cards').replaceChildren(...(cards.length?cards:[make('div','empty','該当する小技が見つかりません。別の言葉でも探してみてね。')]));}
+ let cards=list.map(d=>{const card=make('article','card '+d.app),top=make('div','cardTop'),badge=make('span','badge '+d.app,titles[d.app]),fav=make('button','fav'+(favs.has(d.id)?' on':''),favs.has(d.id)?'★':'☆');fav.setAttribute('aria-label','お気に入り '+d.title);fav.onclick=()=>{favs.has(d.id)?favs.delete(d.id):favs.add(d.id);try{localStorage.setItem('officeTipsFavV03',JSON.stringify([...favs]))}catch(e){}renderTips()};top.append(badge,fav);card.append(top,make('h2','',d.title));const outcome=make('div','outcome');outcome.append((()=>{const h=make('strong');h.append(make('span','miniIcon','✓'),make('span','','こう解決'));return h})(),make('span','',d.goal));card.append(outcome);
+ if(d.keys&&d.keys.length){const shortcut=make('div','shortcutFeature');const kicker=make('div','kicker');kicker.append(make('span','miniIcon','⌨'),make('span','','ショートカット'));shortcut.append(kicker,keysNode(d.keys));card.append(shortcut)}
+ const btn=make('button','openbtn','手順を見る ＋'),detail=make('div','detail');detail.hidden=true;btn.setAttribute('aria-expanded','false');btn.onclick=()=>{detail.hidden=!detail.hidden;btn.setAttribute('aria-expanded',String(!detail.hidden));btn.textContent=detail.hidden?'手順を見る ＋':'解説を閉じる −'};
+ detail.append(make('p','tiny',d.desc),make('div','detailTitle','操作の流れ'));const process=make('div','process');d.steps.forEach((s,i)=>{const el=make('div','processStep');el.append(make('span','num',String(i+1)),make('span','stepText',s));process.append(el);if(i<d.steps.length-1)process.append(make('span','down','▼'))});detail.append(process,make('div','detailTitle','画面操作の順番'));const screen=make('div','screen');screen.append(make('div','screenTop',titles[d.app]+'｜メニューの順番'));const row=make('div','screenButtons');d.menu.forEach((name,i)=>{if(i)row.append(make('span','screenArrow','▶'));let item=make('span','screenBtn'+(name===d.target?' hit':''),name);row.append(item)});screen.append(row);detail.append(screen,make('p','screenNote','※実際のスクリーンショットではなく、順番を示す模式図です。'));if(d.tip)detail.append(make('p','tip','注意：'+d.tip));card.append(btn,detail);return card});$('#cards').replaceChildren(...(cards.length?cards:[make('div','empty','該当する小技が見つかりません。別の言葉でも探してみてね。')]));}
 function renderShortcuts(){document.querySelectorAll('[data-short-app]').forEach(b=>{b.classList.toggle('active',b.dataset.shortApp===shortApp);b.onclick=()=>{shortApp=b.dataset.shortApp;renderShortcuts()}});const q=normalized($('#q').value);const list=shortcuts.filter(s=>(shortApp==='all'||s.app==='all'||s.app===shortApp)&&(!q||normalized(s.title+' '+s.group+' '+s.keys.join(' ')).includes(q)));$('#shortcutCount').textContent=list.length+'件のショートカット';const groupsEls=groups.map(g=>{const items=list.filter(d=>d.group===g);if(!items.length)return null;const sec=make('section','shortgroup');sec.append(make('h2','',g));const grid=make('div','shortcutGrid');items.forEach(d=>{const card=make('div','shortCard '+d.app);card.append(make('span','badge '+d.app,titles[d.app]),make('b','',d.title),keysNode(d.keys));grid.append(card)});sec.append(grid);return sec}).filter(Boolean);$('#shortcutGroups').replaceChildren(...(groupsEls.length?groupsEls:[make('p','empty','ショートカットは見つかりませんでした。')]));}
-$('#q').addEventListener('input',()=>{renderTips();renderShortcuts()});$('#favOnly').onclick=()=>{onlyFav=!onlyFav;renderTips()};$('#printTips').onclick=()=>window.print();$('#printShortcuts').onclick=()=>window.print();renderTips();renderShortcuts();
+$('#q').addEventListener('input',()=>{renderTips();renderShortcuts()});$('#favOnly').onclick=()=>{onlyFav=!onlyFav;renderTips()};renderTips();renderShortcuts();
+
+// v0.5 A4 print studio — no extra libraries
+const printOverlay=document.getElementById('printOverlay'),printItems=document.getElementById('printItems');
+let printMode='single',printSelected=[],printOrigin='tips';
+const printLimits={single:1,multi:6,short:16};
+const printEscape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function printableTips(){
+ const q=normalized(document.getElementById('q').value);
+ return data.filter(d=>(activeApp==='all'||d.app===activeApp)&&(activeCat==='すべて'||d.category===activeCat)&&(!onlyFav||favs.has(d.id))&&(!q||normalized([d.title,d.goal,d.desc,d.tags,d.category].join(' ')).includes(q)));
+}
+function printableShortcuts(){
+ const q=normalized(document.getElementById('q').value);
+ return shortcuts.filter(s=>(shortApp==='all'||s.app==='all'||s.app===shortApp)&&(!q||normalized(s.title+' '+s.group+' '+s.keys.join(' ')).includes(q)));
+}
+function printCandidates(){return printMode==='short'?printableShortcuts():printableTips()}
+function printKeys(keys){return (keys||[]).map((k,i)=>(i?'<span>＋</span>':'')+'<kbd>'+printEscape(k)+'</kbd>').join('')}
+function openPrint(mode){
+ printOrigin=activePage;printMode=mode;printSelected=[];printOverlay.classList.add('open');
+ document.body.style.overflow='hidden';renderPrintChooser();
+}
+function closePrint(){printOverlay.classList.remove('open');document.body.style.overflow='';document.body.classList.remove('printing')}
+function printRow(d){
+ const keys=d.keys?.length?d.keys.join(' + '):'—';
+ const steps=d.steps?.length?d.steps.map((s,i)=>(i+1)+'. '+s).join(' / '):'';
+ return '<tr><td>'+printEscape(d.title)+'</td><td>'+printEscape(keys)+'</td><td>'+printEscape(steps||d.goal||'')+'</td></tr>';
+}
+function renderPrintChooser(){
+ document.querySelectorAll('[data-print-mode]').forEach(b=>b.classList.toggle('on',b.dataset.printMode===printMode));
+ const limit=printLimits[printMode],list=printCandidates();
+ document.getElementById('printLimit').textContent=(printMode==='single'?'1件':`最大${limit}件`)+'を選択';
+ printItems.replaceChildren();
+ list.forEach(d=>{
+  const label=document.createElement('label'),input=document.createElement('input'),span=document.createElement('span'),small=document.createElement('small');
+  input.type=printMode==='single'?'radio':'checkbox';input.name='printSelection';input.checked=printSelected.includes(d.id);
+  input.addEventListener('change',()=>{
+   if(printMode==='single')printSelected=[d.id];
+   else if(input.checked){if(printSelected.length>=limit){input.checked=false;document.getElementById('printStatus').textContent=`A4で読みやすくするため最大${limit}件です。`;return;}printSelected.push(d.id)}
+   else printSelected=printSelected.filter(id=>id!==d.id);
+   renderPrintChooser();
+  });
+  span.textContent=d.title;small.textContent=titles[d.app]||'共通';
+  label.append(input,span,small);printItems.append(label);
+ });
+ const status=document.getElementById('printStatus');
+ status.textContent=`${printSelected.length}件選択中。${list.length}件から選べます。印刷時は背景の画面を除外します。`;
+ document.getElementById('printGo').disabled=printSelected.length===0;
+ renderPrintPaper();
+}
+function renderPrintPaper(){
+ const selected=printSelected.map(id=>printCandidates().find(d=>d.id===id)).filter(Boolean);
+ const paper=document.getElementById('printPaper');
+ const foot='<div class="paperFoot"><span>© Bloom Wamii</span><span>Office 小技辞典</span></div>';
+ if(!selected.length){paper.innerHTML='<div class="paperMeta">OFFICE 小技辞典 / A4</div><h2>印刷プレビュー</h2><p>上から印刷したい項目を選んでね。</p>'+foot;return;}
+ if(printMode==='single'){
+  const d=selected[0];
+  paper.innerHTML='<div class="paperMeta">'+printEscape(titles[d.app])+'｜操作ガイド</div><h2>'+printEscape(d.title)+'</h2><div class="paperGoal '+printEscape(d.app)+'"><strong>✓ こう解決</strong><div>'+printEscape(d.goal)+'</div></div>'+
+  (d.keys?.length?'<h3>⌨ ショートカット</h3><div class="paperKeys">'+printKeys(d.keys)+'</div>':'')+
+  '<h3>操作の手順</h3><ol>'+d.steps.map(s=>'<li>'+printEscape(s)+'</li>').join('')+'</ol>'+
+  '<h3>操作イメージ（メニューの順番）</h3><div class="paperFlow">'+(d.menu||[]).map((s,i)=>(i?'<b>▶</b>':'')+'<span>'+printEscape(s)+'</span>').join('')+'</div>'+
+  (d.tip?'<div class="paperTip">注意：'+printEscape(d.tip)+'</div>':'')+foot;
+ }else if(printMode==='multi'){
+  paper.innerHTML='<div class="paperMeta">OFFICE 小技辞典｜選んだ小技</div><h2>すぐ使える操作メモ</h2><table class="paperTable"><thead><tr><th>やりたいこと</th><th>キー</th><th>操作の手順</th></tr></thead><tbody>'+selected.map(printRow).join('')+'</tbody></table>'+foot;
+ }else{
+  paper.innerHTML='<div class="paperMeta">OFFICE 小技辞典｜ショートカット</div><h2>ショートカット早見表</h2><table class="paperTable"><thead><tr><th>操作</th><th>キー</th><th>グループ</th></tr></thead><tbody>'+selected.map(d=>'<tr><td>'+printEscape(d.title)+'</td><td class="smallKey">'+printEscape(d.keys.join(' + '))+'</td><td>'+printEscape(d.group)+'</td></tr>').join('')+'</tbody></table>'+foot;
+ }
+}
+document.querySelectorAll('[data-print-mode]').forEach(b=>b.addEventListener('click',()=>{printMode=b.dataset.printMode;printSelected=[];renderPrintChooser()}));
+document.getElementById('printClose').onclick=closePrint;
+document.getElementById('printCancel').onclick=closePrint;
+printOverlay.addEventListener('click',e=>{if(e.target===printOverlay)closePrint()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&printOverlay.classList.contains('open'))closePrint()});
+document.getElementById('printClear').onclick=()=>{printSelected=[];renderPrintChooser()};
+document.getElementById('printAll').onclick=()=>{printSelected=printCandidates().slice(0,printLimits[printMode]).map(d=>d.id);renderPrintChooser()};
+document.getElementById('printGo').onclick=()=>{
+ if(!printSelected.length)return;
+ document.body.classList.add('printing');document.body.style.overflow='';
+ window.print();
+};
+window.addEventListener('afterprint',()=>{document.body.classList.remove('printing');if(printOverlay.classList.contains('open'))document.body.style.overflow='hidden'});
+document.getElementById('printTips').onclick=()=>openPrint('single');
+document.getElementById('printShortcuts').onclick=()=>openPrint('short');
 </script></body></html>

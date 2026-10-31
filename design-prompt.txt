@@ -1,0 +1,9 @@
+Generated with ChatGPT's built-in image-generation tool. The app-header logo was resized from the original transparent PNG without AI redrawing.
+
+Use case: precise-object-edit.
+Image 1 is the CURRENT FAVICON to edit. Image 2 is the approved transparent keyboard key, provided only as a reference for the key's exact design. These are the user's own earlier generated assets.
+Change ONLY the BACKGROUND of image 1. Preserve the ivory sculpted keyboard key, the sage magnifying-glass print, its upright frontal orientation, its 3D geometry, its soft shadow and its centered size/placement (the key is about 74 percent of canvas width). Do not redraw the key into another shape. Exactly one key.
+New background: an almost UNIFORM soft muted SAGE GREEN, base around #A9C7B7. At least 90 percent of the field should appear sage green. Add only a VERY FAINT LOCALIZED hint of dusty gray-blue at the UPPER RIGHT corner, softly fading into green within that corner area. The blue-tinted corner should remain greenish, around #ADC7C1, rather than visibly blue. At first glance it should read as a solid sage-green background, and only on close inspection show that slight cool variation. No obvious diagonal gradient, no half-blue half-green division, no yellow, no white glow.
+The colored background fills the ENTIRE SQUARE CANVAS EDGE TO EDGE, including all four corners. FULLY OPAQUE image, no transparency, no rounded-corner cutout, no external white margin or border. This is the final favicon background itself, not a floating panel on another background.
+Clean minimal 3D favicon, no text, letters, decorations, extra objects, surrounding keyboard or watermark.
+
